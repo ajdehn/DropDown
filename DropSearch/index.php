@@ -19,8 +19,8 @@ $_SESSION['schoolName'] = $var_sName;
 <META http-equiv=Cache-Control content=no-cache>
 <META http-equiv=Pragma content=no-cache>
 <META name="Expires" content="Fri, 01 Jan 1990 00:00:00 GMT">
-<META NAME="Description" CONTENT="Anonymously send a package of poop to your friends or enemies. The ultimate gag gift. Sweet revenge at its finest.">
-<META NAME="Keywords" CONTENT="poop, gag gift, real poop, poop in mail, mail poop, poop package, poop senders, crap, dung, feces, excrement, poop present">
+<META NAME="Description" CONTENT="Find any test, upload">
+<META NAME="Keywords" CONTENT="answers, cheating, university, findmytest, testing">
 <link rel="stylesheet" href="/inc/templates/style.css" type="text/css">
 <link rel="shortcut icon" HREF="/images/site/favicon.ico">
 </head>
@@ -50,7 +50,7 @@ $_SESSION['schoolName'] = $var_sName;
 
 		<table border="0" cellpadding="0" cellspacing="0" width="100%">
 	 	<tr>
-	  		<td align="left" valign="top" width=""><a href="/"><img src="/series/DropSearch/images/cheating.jpg" border="0" width="100%" height="145" alt=" poop senders" title=" poop senders"></a></td>
+	  		<td align="left" valign="top" width=""><a href="/"><img src="/series/DropSearch/images/cheating.jpg" border="0" width="100%" height="145" alt=" cheating" title=" cheating"></a></td>
 		</tr>
 		</table>
 
@@ -63,7 +63,7 @@ $_SESSION['schoolName'] = $var_sName;
 				&nbsp;&nbsp;&nbsp;&nbsp;
 				<font color="#666666"></font>&nbsp;<a href="/series/DropSearch/uploadForm.php" class="top_nav">Upload</a>
 				&nbsp;&nbsp;&nbsp;&nbsp;
-				<font color="#666666"></font>&nbsp;<a href="/series/DropSearch/contact/" class="top_nav">ContactMeFool</a>
+				<font color="#666666"></font>&nbsp;<a href="/series/DropSearch/contact/" class="top_nav">Contact</a>
 				&nbsp;&nbsp;&nbsp;&nbsp;
 			</td>
 		</tr>
@@ -94,8 +94,8 @@ function search(string){
 			document.getElementById("search").innerHTML = xmlhttp.responseText;
 		}
 	}
-	xmlhttp.open("GET", "search.php?s="+string, true);
-	//xmlhttp.open("GET", string, true);
+	// call the search function 
+	xmlhttp.open("GET", "search.php?s="+string, true); 
 	xmlhttp.send(null);
 }
 </script>
@@ -133,7 +133,7 @@ body{
 
 
 <div class="copyright" style="text-align: center"
-	&copy; 2016 noisyCards.com, All rights reserved.
+	&copy; 2017 FindYourTest.com, All rights reserved.
 </div>
 
 <br />
