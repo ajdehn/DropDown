@@ -46,7 +46,7 @@ $_SESSION['schoolName'] = $var_sName;
 <!-- Checks the inner column-->
 <table border="0" cellpadding="0" cellspacing="0" width="80%" bgcolor="#FFFFFF">
 <tr>
-	<td align="left" valign="top" width="770">	
+	<td align="left" valign="top" width="770">
 
 		<table border="0" cellpadding="0" cellspacing="0" width="100%">
 	 	<tr>
@@ -63,13 +63,13 @@ $_SESSION['schoolName'] = $var_sName;
 				&nbsp;&nbsp;&nbsp;&nbsp;
 				<font color="#666666"></font>&nbsp;<a href="/series/DropSearch/uploadForm.php" class="top_nav">Upload</a>
 				&nbsp;&nbsp;&nbsp;&nbsp;
-				<font color="#666666"></font>&nbsp;<a href="/series/DropSearch/contact/" class="top_nav">Contact</a>
+				<font color="#666666"></font>&nbsp;<a href="/series/DropSearch/contact/" class="top_nav">ContactMeFool</a>
 				&nbsp;&nbsp;&nbsp;&nbsp;
 			</td>
 		</tr>
 		</table>
-		
-		
+
+
 
 		<table border="0" cellpadding="16" cellspacing="0" width="100%" height="450" background="/images/site/fbbg.jpg">
 		<tr>
@@ -79,7 +79,7 @@ $_SESSION['schoolName'] = $var_sName;
 
 
 
-			
+
 			<title>Drop down search</title>
 <script>
 function search(string){
@@ -130,7 +130,7 @@ body{
 			<br />
 			<!-- <a href="/series/DropSearch/download.php?varname=<?php echo $var_result ?>">Link to search page</a> -->
 			<a href="/series/DropSearch/">Link to search page</a>
-	
+
 
 <div class="copyright" style="text-align: center"
 	&copy; 2016 noisyCards.com, All rights reserved.
@@ -142,4 +142,3 @@ body{
 
 </BODY>
 </HTML>
-
