@@ -50,7 +50,7 @@ $_SESSION['schoolName'] = $var_sName;
 
 		<table border="0" cellpadding="0" cellspacing="0" width="100%">
 	 	<tr>
-	  		<td align="left" valign="top" width=""><a href="/"><img src="/series/DropSearch/images/cheating.jpg" border="0" width="100%" height="145" alt=" cheating" title=" cheating"></a></td>
+	  		<td align="left" valign="top" width=""><a href="/"><img src="/series/DropSearch/images/fuckYouToad.png" border="0" width="100%" height="145" alt=" cheating" title=" cheating"></a></td>
 		</tr>
 		</table>
 
